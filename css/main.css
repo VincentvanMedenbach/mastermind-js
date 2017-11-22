@@ -1,0 +1,9 @@
+section{
+    /*display:none;*/
+}
+section:last-child {
+    cursor: not-allowed;
+}
+body{
+    background-color: pink;
+}

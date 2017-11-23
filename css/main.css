@@ -1,9 +1,12 @@
-section{
-    /*display:none;*/
-}
-section:last-child {
-    cursor: not-allowed;
-}
-body{
-    background-color: pink;
-}
+/*section{*/
+    /*display: none;*/
+/*}*/
+/*section:only-child{*/
+    /*display:block;*/
+/*}*/
+/*section:last-child {*/
+    /*display:block;*/
+/*}*/
+/*body{*/
+    /*background-color: pink;*/
+/*}*/

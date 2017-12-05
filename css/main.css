@@ -17,6 +17,7 @@ body{
 }
 #container{
     width: 400px;
+    background-image: url("Achtergrond.png");
 }
 button{
     width: 40px;

@@ -15,33 +15,33 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="441">
-              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+            <state relative-caret-position="546">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mastermind.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Mastermind.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mastermind.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="730">
-              <caret line="273" column="20" lean-forward="true" selection-start-line="273" selection-start-column="20" selection-end-line="273" selection-end-column="20" />
+            <state relative-caret-position="515">
+              <caret line="260" column="38" lean-forward="true" selection-start-line="260" selection-start-column="38" selection-end-line="260" selection-end-column="38" />
               <folding>
-                <element signature="n#!!block;n#rij#0" expanded="false" />
-                <element signature="e#2956#2982#0" expanded="false" />
-                <element signature="e#3005#4623#0" expanded="false" />
+                <element signature="e#2802#2828#0" expanded="false" />
+                <element signature="e#2851#4469#0" expanded="false" />
                 <element signature="n#!!block;n#buttonDeactivate#0" expanded="false" />
                 <element signature="n#!!block;n#buttonActivate#0" expanded="false" />
+                <element signature="n#!!block;n#changeColor#0" expanded="false" />
                 <element signature="n#!!block;n#randomColor#0" expanded="false" />
               </folding>
             </state>
@@ -74,6 +74,9 @@
       <find>checkPlace</find>
       <find>totalPlac</find>
       <find>checkersColor</find>
+      <find>col</find>
+      <find>isRightNum</find>
+      <find>ReadyForCheck</find>
     </findStrings>
     <replaceStrings>
       <replace>ClassName</replace>
@@ -93,8 +96,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/Mastermind.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -113,10 +116,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="658" />
-    <option name="height" value="458" />
+    <option name="x" value="629" />
+    <option name="y" value="181" />
+    <option name="width" value="1400" />
+    <option name="height" value="990" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -155,7 +158,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lingo-js" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -182,18 +185,22 @@
       <option name="presentableId" value="Default" />
       <updated>1511348566880</updated>
       <workItem from="1511348568352" duration="13578000" />
-      <workItem from="1511771249195" duration="24012000" />
+      <workItem from="1511771249195" duration="24281000" />
+      <workItem from="1511945182529" duration="25000" />
+      <workItem from="1511945229780" duration="7000" />
+      <workItem from="1512380893712" duration="3138000" />
+      <workItem from="1512459335849" duration="2991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37590000" />
+    <option name="totallyTimeSpent" value="44020000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.178125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.178125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -220,11 +227,138 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mastermind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3444">
+          <caret line="298" column="79" lean-forward="false" selection-start-line="298" selection-start-column="79" selection-end-line="298" selection-end-column="79" />
+          <caret line="301" column="79" lean-forward="false" selection-start-line="301" selection-start-column="79" selection-end-line="301" selection-end-column="79" />
+          <caret line="304" column="79" lean-forward="false" selection-start-line="304" selection-start-column="79" selection-end-line="304" selection-end-column="79" />
+          <caret line="307" column="79" lean-forward="false" selection-start-line="307" selection-start-column="79" selection-end-line="307" selection-end-column="79" />
+          <folding>
+            <element signature="e#2802#2828#0" expanded="false" />
+            <element signature="e#2851#4469#0" expanded="false" />
+            <element signature="n#!!block;n#buttonDeactivate#0" expanded="false" />
+            <element signature="n#!!block;n#buttonActivate#0" expanded="false" />
+            <element signature="n#!!block;n#changeColor#0" expanded="false" />
+            <element signature="n#!!block;n#randomColor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mastermind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="228" column="0" lean-forward="false" selection-start-line="228" selection-start-column="0" selection-end-line="247" selection-end-column="1" />
+          <folding>
+            <element signature="e#2802#2828#0" expanded="false" />
+            <element signature="e#2851#4469#0" expanded="false" />
+            <element signature="n#!!block;n#buttonDeactivate#0" expanded="false" />
+            <element signature="n#!!block;n#buttonActivate#0" expanded="false" />
+            <element signature="n#!!block;n#changeColor#0" expanded="false" />
+            <element signature="n#!!block;n#randomColor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mastermind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4788">
+          <caret line="228" column="0" lean-forward="false" selection-start-line="228" selection-start-column="0" selection-end-line="247" selection-end-column="1" />
+          <folding>
+            <element signature="e#2802#2828#0" expanded="false" />
+            <element signature="e#2851#4469#0" expanded="false" />
+            <element signature="n#!!block;n#buttonDeactivate#0" expanded="false" />
+            <element signature="n#!!block;n#buttonActivate#0" expanded="false" />
+            <element signature="n#!!block;n#changeColor#0" expanded="false" />
+            <element signature="n#!!block;n#randomColor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mastermind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2730">
+          <caret line="273" column="20" lean-forward="true" selection-start-line="273" selection-start-column="20" selection-end-line="273" selection-end-column="20" />
+          <folding>
+            <element signature="e#2802#2828#0" expanded="false" />
+            <element signature="e#2851#4469#0" expanded="false" />
+            <element signature="n#!!block;n#buttonDeactivate#0" expanded="false" />
+            <element signature="n#!!block;n#buttonActivate#0" expanded="false" />
+            <element signature="n#!!block;n#changeColor#0" expanded="false" />
+            <element signature="n#!!block;n#randomColor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -246,11 +380,34 @@
         <state relative-caret-position="1638">
           <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
           <folding>
-            <element signature="n#!!block;n#rij#0" expanded="false" />
-            <element signature="e#2956#2982#0" expanded="false" />
-            <element signature="e#3005#4623#0" expanded="false" />
+            <element signature="e#2802#2828#0" expanded="false" />
+            <element signature="e#2851#4469#0" expanded="false" />
             <element signature="n#!!block;n#buttonDeactivate#0" expanded="false" />
             <element signature="n#!!block;n#buttonActivate#0" expanded="false" />
+            <element signature="n#!!block;n#changeColor#0" expanded="false" />
+            <element signature="n#!!block;n#randomColor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mastermind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="260" column="38" lean-forward="true" selection-start-line="260" selection-start-column="38" selection-end-line="260" selection-end-column="38" />
+          <folding>
+            <element signature="e#2802#2828#0" expanded="false" />
+            <element signature="e#2851#4469#0" expanded="false" />
+            <element signature="n#!!block;n#buttonDeactivate#0" expanded="false" />
+            <element signature="n#!!block;n#buttonActivate#0" expanded="false" />
+            <element signature="n#!!block;n#changeColor#0" expanded="false" />
             <element signature="n#!!block;n#randomColor#0" expanded="false" />
           </folding>
         </state>
@@ -258,32 +415,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        <state relative-caret-position="546">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mastermind.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="273" column="20" lean-forward="true" selection-start-line="273" selection-start-column="20" selection-end-line="273" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!block;n#rij#0" expanded="false" />
-            <element signature="e#2956#2982#0" expanded="false" />
-            <element signature="e#3005#4623#0" expanded="false" />
-            <element signature="n#!!block;n#buttonDeactivate#0" expanded="false" />
-            <element signature="n#!!block;n#buttonActivate#0" expanded="false" />
-            <element signature="n#!!block;n#randomColor#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>

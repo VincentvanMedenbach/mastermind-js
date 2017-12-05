@@ -9,14 +9,11 @@ randomColor(4);
 var totalPlacesOther = 0;
 var placesOther = 0;
 var placesRight = 0;
-var colorCheckDone1 = false;
-var colorCheckDone2 = false;
-var colorCheckDone3 = false;
-var colorCheckDone4 = false;
+var colorCheckDone = [false, false, false, false, false];
 var won = false;
 var isRight = [true, true, true, true];
 var isRightNumber = 0;
-
+var testArray = [];
 
 function rij() {
     rij.prototype.newRij = function () {
@@ -72,10 +69,6 @@ function activation() {
     totalPlacesOther = 0;
     placesOther = 0;
     placesRight = 0;
-    colorCheckDone1 = false;
-    colorCheckDone2 = false;
-    colorCheckDone3 = false;
-    colorCheckDone4 = false;
     checkers();
     buttonDeactivate();
 
@@ -88,7 +81,7 @@ function activation() {
     button5.innerHTML = "Activate";
     count++;
     current = "buttonRij" + count;
-    if (placesRight == 4) {
+    if (placesRight === 4) {
         victory();
     }
     if (won == false) {
@@ -157,8 +150,9 @@ function activation() {
     runOnce = true;
 
     for (var x = 1; x < 5; x++) {
-        ReadyForCheck[x - 1] = document.getElementById("random" + x).style.backgroundColor;
+        ReadyForCheck[x] = document.getElementById("random" + x).style.backgroundColor;
     }
+    colorCheckDone = [false, false, false, false, false];
 }
 
 function buttonDeactivate() {
@@ -230,46 +224,67 @@ function checkers() {
     if (runOnce == true) {
         checkerProxy();
         totalPlacesOther = 4 - (placesOther + placesRight);
-        console.log(placesRight);
-        console.log(totalPlacesOther);
-        console.log(placesOther);
+        console.log(placesRight + "placesRight");
+        console.log(totalPlacesOther + "TotalOther");
+        console.log(placesOther + "PlacesOther");
     }
 }
 
 function checkerProxy() {
-    checkPlace(1);
-    checkPlace(2);
-    checkPlace(3);
-    checkPlace(4);
     checkColors(1);
     checkColors(2);
     checkColors(3);
     checkColors(4);
+    checkPlace(1);
+    checkPlace(2);
+    checkPlace(3);
+    checkPlace(4);
 }
 
 function checkPlace(Number) {
     console.log("checkPlace number: " + Number);
-    if (ReadyForCheck[Number - 1] === document.getElementById("button" + Number + "_" + count).style.backgroundColor) {
+    if (ReadyForCheck[Number] === document.getElementById("button" + Number + "_" + count).style.backgroundColor) {
         placesRight++;
-        isRightNumber = Number - 1;
+        isRightNumber = Number;
         isRight[isRightNumber] = false;
-        ReadyForCheck[Number - 1] = "";
+        ReadyForCheck[Number] = "";
 
     }
 }
+
 
 function checkColors(Number) {
-    console.log("checkColors number: " + Number);
-    for (var i = 0; i < Number - 1; i++) {
-        if (i !== (Number - 1)) {
-            if (ReadyForCheck[i] === document.getElementById("button" + Number + "_" + count).style.backgroundColor && isRight[i] === true) {
+    for (var i = 1; i < 5; i++) {
+        if (i !== (Number)) {
+            if (ReadyForCheck[i] === document.getElementById("button" + Number + "_" + count).style.backgroundColor) {
                 placesOther++;
-                colorCheckDone1 = true;
                 ReadyForCheck[i] = "";
+                console.log(ReadyForCheck[i] + i + "disabled");
+                testArray[(i) + "+" + Number] = true;
             }
         }
+        console.log("Check for:" + (i) + " " + Number + testArray[(i) + "+" + Number]);
     }
 }
+
+//     }
+// function checkColors(Number) {
+//     console.log("checkColors number: " + Number);
+//     for (var i = 0; i < 4; i++) {
+//
+//         if (i !== (Number - 1)) {
+//             if (ReadyForCheck[(i + 1)] === document.getElementById("button" + Number + "_" + count).style.backgroundColor && colorCheckDone[i] === false) {
+//                 placesOther++;
+//                 colorCheckDone[i] = true;
+//                 console.log(i);
+//
+//                 ReadyForCheck[i + 1] = "";
+//             }
+//         }
+//
+//     }
+//
+// }
 
 function victory() {
     won = true;
@@ -279,32 +294,32 @@ function victory() {
 }
 
 function checkersColor() {
+    if (totalPlacesOther <= 0) {
+        document.getElementById("check4_" + count).style.backgroundColor = "white";
+    }
     if (totalPlacesOther <= 1) {
-        document.getElementById("check4_" + count).style.backgroundColor = "red";
+        document.getElementById("check3_" + count).style.backgroundColor = "white";
     }
     if (totalPlacesOther <= 2) {
-        document.getElementById("check3_" + count).style.backgroundColor = "red";
+        document.getElementById("check2_" + count).style.backgroundColor = "white";
     }
     if (totalPlacesOther <= 3) {
-        document.getElementById("check2_" + count).style.backgroundColor = "red";
-    }
-    if (totalPlacesOther = 4) {
-        document.getElementById("check1_" + count).style.backgroundColor = "red";
+        document.getElementById("check1_" + count).style.backgroundColor = "white";
     }
 
 }
 
 function checkersRight() {
     if (placesRight >= 4) {
-        document.getElementById("check4_" + count).style.backgroundColor = "white";
+        document.getElementById("check4_" + count).style.backgroundColor = "red";
     }
     if (placesRight >= 3) {
-        document.getElementById("check3_" + count).style.backgroundColor = "white";
+        document.getElementById("check3_" + count).style.backgroundColor = "red";
     }
     if (placesRight >= 2) {
-        document.getElementById("check2_" + count).style.backgroundColor = "white";
+        document.getElementById("check2_" + count).style.backgroundColor = "red";
     }
     if (placesRight >= 1) {
-        document.getElementById("check1_" + count).style.backgroundColor = "white";
+        document.getElementById("check1_" + count).style.backgroundColor = "red";
     }
 }
